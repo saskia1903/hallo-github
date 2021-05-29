@@ -2,7 +2,12 @@
 <html lang="de">
     <!--Der Head steht in der Datei head.php-->
     <head>
-        <?php include("head.php")?>
+        <meta charset="UTF-8">
+        <meta title="author1" name="Christopher Hufnagel">
+        <meta title="author2" name="Saskia Landgraf">
+        <meta title="author3" name="Martin Stöhr">
+        <link rel="stylesheet" href="allgemein.css">
+        <title>Umfrage zum 2. Weltkrieg</title>
         <link rel="stylesheet" href="start.css">
     </head>
     
