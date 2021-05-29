@@ -1,0 +1,51 @@
+.section 
+{
+    display: flex;
+    height: auto;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(50, 50, 50);
+}
+
+.question
+{
+    margin: 0 40px;
+    display: flex;
+    font-size: 125px;
+}
+
+.frage
+{
+    margin-right: 40px;
+    height: fit-content;
+}
+
+.button
+{
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.input
+{
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+input[type="checkbox"]:checked 
+{
+    border-color: lightcoral;
+    background-color:red;
+}
